@@ -19,7 +19,7 @@ warnings.filterwarnings('ignore')
 
 nltk.download('punkt', quiet=True)
 
-# getting the data or in our case the Coronavirus article
+# getting the data or in our case the Coronavirus article. Here we can give the link to any article of our choice.
 article = Article('https://www.space.com/11506-space-weather-sunspots-solar-flares-coronal-mass-ejections.html')
 article.download()
 article.parse()
